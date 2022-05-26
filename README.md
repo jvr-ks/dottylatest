@@ -18,8 +18,6 @@ dottylatest.exe | java -cp "dottylatest.jar;lib\\*" de.jvr.dottylatest.Dottylate
 java.lang.ClassNotFoundException: scala.runtime.function.JProcedure1  
   
 \*2) Using Loader, the internal command used is defined by the content of "loader.ini"  
-Autohotkey -> spawning a Java-process -> spawning a windows-process does not reliable work ...
-I don't know why ...
   
 #### Description  
 This simple tool extracts the entry with the latest date from the  

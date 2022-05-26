@@ -13,7 +13,7 @@ import sys.process._
 
 object Dottylatest:
 
-  val version = "0.035"
+  val version = "0.036"
   
   val osName = System.getProperty("os.name") match {
     case n if n.startsWith("Linux") => "linux"
