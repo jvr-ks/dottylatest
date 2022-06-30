@@ -7,7 +7,7 @@ SBT if using Scala.
 
 #### Status 
 Execution (as an admin) | Internal command used  | Status  
------------- | -------------  
+------------ | ------------- | -------------  
 dottylatest_Java_FAT.bat | java -jar dottylatestFAT.jar | ok  
 dottylatest_Java.bat | java -cp "dottylatest.jar;lib\\*" de.jvr.dottylatest.Dottylatest | ok  
 dottylatest_Scala.bat | scala -cp dottylatest.jar de.jvr.dottylatest.Dottylatest | NO, buggy \*1)   
