@@ -5,7 +5,7 @@
 lazy val root = (project in file("."))
 .settings(
   name := "Dottylatest",
-  ThisBuild / scalaVersion := sys.env.get("DOTTYLATEST").getOrElse("3.1.2"),
+  ThisBuild / scalaVersion := sys.env.get("DOTTYLATEST").getOrElse("3.1.3"),
   version := "",
   organization := "de.jvr",
   logLevel := Level.Warn,
