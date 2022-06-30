@@ -10,8 +10,8 @@ Execution (as an admin) | Internal command used  | Status
 ------------ | ------------- | -------------  
 dottylatest.exe | java -cp "dottylatest.jar;lib\\*" de.jvr.dottylatest.Dottylatest | ok \*1)  
 dottylatest.exe | java -jar dottylatestFAT.jar | ok \*2)  
-dottylatest_Java_FAT.bat | java -jar dottylatestFAT.jar | ok  
 dottylatest_Java.bat | java -cp "dottylatest.jar;lib\\*" de.jvr.dottylatest.Dottylatest | ok  
+dottylatest_Java_FAT.bat | java -jar dottylatestFAT.jar | ok  
 dottylatest_Scala.bat | scala -cp dottylatest.jar de.jvr.dottylatest.Dottylatest | NO, buggy \3)  
    
 \*1) Using Loader, the internal command used is defined by the content of "loader.ini" (default setup)  
