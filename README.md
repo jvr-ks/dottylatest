@@ -27,13 +27,13 @@ and sets the environment-variable "DOTTYLATEST" accordingly.
 This environment-variable can be referenced in any "build.sbt"-file with:  
   
 ```
-ThisBuild / scalaVersion := sys.env.get("DOTTYLATEST").getOrElse("3.3.0"),  
+ThisBuild / scalaVersion := sys.env.get("DOTTYLATEST").getOrElse("3.3.1"),  
 ```
 or  
 ```
 inThisBuild(
 	List(
-		scalaVersion := sys.env.get("DOTTYLATEST").getOrElse("3.3.0")
+		scalaVersion := sys.env.get("DOTTYLATEST").getOrElse("3.3.1")
 	)
 )
 ```  
@@ -82,6 +82,7 @@ Linux/WSL: use "dottylatest_Java.sh" (chmod a+x ...)
   
 Version (>=)| Change  
 ------------ | -------------
+0.048 | -> 3.3.1 as default
 0.047 | Using the clipboard (loader changed) to catch app messages which is much faster
 0.046 | -> 3.3.0 as default
 0.040 | -> 3.2.2 as default
@@ -120,7 +121,7 @@ All files are UTF-8 (no BOM)
 The "lib"-subdirectory contains the Scala libraries needed to run Scala apps with the Java runtime. 
 Use Updater to download them during install from:  
 https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.8/scala-library-2.13.8.jar  
-https://repo1.maven.org/maven2/org/scala-lang/scala3-library_3/3.3.0/scala3-library_3-3.3.0.jar   
+https://repo1.maven.org/maven2/org/scala-lang/scala3-library_3/3.3.1/scala3-library_3-3.3.1.jar   
   
 #### Remarks  
 The *.default-files are used by the Updater.  
