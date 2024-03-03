@@ -10,7 +10,7 @@ if NOT %ERRORLEVEL% == 0 goto noadmin
 rem call scala -classpath dottylatest.jar;lib\\* de.jvr.dottylatest.Dottylatest
 
 rem use distinct libraries
-call scala -classpath dottylatest.jar;lib/scala3-library_3-3.2.2.jar;lib/scala-library-2.13.8.jar de.jvr.dottylatest.Dottylatest
+call scala -classpath dottylatest.jar;lib/scala3-library_3-3.2.2.jar;lib/scala-library-2.13.13.jar de.jvr.dottylatest.Dottylatest
 
 timeout /T 4
 

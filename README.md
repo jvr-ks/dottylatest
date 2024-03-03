@@ -27,13 +27,13 @@ and sets the environment-variable "DOTTYLATEST" accordingly.
 This environment-variable can be referenced in any "build.sbt"-file with:  
   
 ```
-ThisBuild / scalaVersion := sys.env.get("DOTTYLATEST").getOrElse("3.3.1"),  
+ThisBuild / scalaVersion := sys.env.get("DOTTYLATEST").getOrElse("3.3.3"),  
 ```
 or  
 ```
 inThisBuild(
 	List(
-		scalaVersion := sys.env.get("DOTTYLATEST").getOrElse("3.3.1")
+		scalaVersion := sys.env.get("DOTTYLATEST").getOrElse("3.3.3")
 	)
 )
 ```  
@@ -82,7 +82,7 @@ Linux/WSL: use "dottylatest_Java.sh" (chmod a+x ...)
   
 Version (>=)| Change  
 ------------ | -------------
-0.048 | -> 3.3.1 as default
+0.048 | -> 3.3.3 as default
 0.047 | Using the clipboard (loader changed) to catch app messages which is much faster
 0.046 | -> 3.3.0 as default
 0.040 | -> 3.2.2 as default
@@ -120,8 +120,8 @@ All files are UTF-8 (no BOM)
 #### Libraries  
 The "lib"-subdirectory contains the Scala libraries needed to run Scala apps with the Java runtime. 
 Use Updater to download them during install from:  
-https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.8/scala-library-2.13.8.jar  
-https://repo1.maven.org/maven2/org/scala-lang/scala3-library_3/3.3.1/scala3-library_3-3.3.1.jar   
+https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.13/scala-library-2.13.13.jar  
+https://repo1.maven.org/maven2/org/scala-lang/scala3-library_3/3.3.3/scala3-library_3-3.3.3.jar   
   
 #### Remarks  
 The *.default-files are used by the Updater.  
@@ -137,8 +137,8 @@ Copyright (c) 2021 J. v.Roos
 
 
 ##### Virusscan at Virustotal 
-[Virusscan at Virustotal, dottylatest.exe file, Check here](https://www.virustotal.com/gui/url/bb933786c2b6081ab4b95b2a2b44f36e6d4e7edd8dfab934ba8e0f043aa9bed8/detection/u-bb933786c2b6081ab4b95b2a2b44f36e6d4e7edd8dfab934ba8e0f043aa9bed8-1708450067
+[Virusscan at Virustotal, dottylatest.exe file, Check here](https://www.virustotal.com/gui/url/bb933786c2b6081ab4b95b2a2b44f36e6d4e7edd8dfab934ba8e0f043aa9bed8/detection/u-bb933786c2b6081ab4b95b2a2b44f36e6d4e7edd8dfab934ba8e0f043aa9bed8-1709458364
 )  
-[Virusscan at Virustotal, dottylatest.jar file, Check here](https://www.virustotal.com/gui/url/5595920b360671628290dadc663aa3aad104bbef9e79cdc09af799ed506ab352/detection/u-5595920b360671628290dadc663aa3aad104bbef9e79cdc09af799ed506ab352-1708450068
+[Virusscan at Virustotal, dottylatest.jar file, Check here](https://www.virustotal.com/gui/url/5595920b360671628290dadc663aa3aad104bbef9e79cdc09af799ed506ab352/detection/u-5595920b360671628290dadc663aa3aad104bbef9e79cdc09af799ed506ab352-1709458365
 )  
 Use [CTRL] + Click to open in a new window! 
