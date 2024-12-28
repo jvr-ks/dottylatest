@@ -78,9 +78,10 @@ object Dottylatest:
   
   val extractNameAndSetRC: (Either[String, String]) => Unit = {
     case Right(value) => 
-      val regexName = """.*?(\d+\.\d+\.\d+-RC\d+.*?)\/.*""".r
+      val RegEXP = """.*?(\d+\.\d+\.\d+-RC\d+.*?)\/.*""".r
       
-      val found = (regexName findAllIn value).matchData.map(_ group 1).toList.sorted
+      val found = (RegEXP findAllIn value).matchData.map(_ group 1).toList.sorted
+      
       if (found.size > 0)
         val latestDottyVersion = found.last
         
@@ -117,8 +118,8 @@ object Dottylatest:
   
   val extractNameAndSetSTABLE: (Either[String, String]) => Unit = {
     case Right(value) => 
-      val regexName = """.*?(\d+\.\d+\.\d+)\/.*""".r
-      val found = (regexName findAllIn value).matchData.map(_ group 1).toList.sorted
+      val RegEXP = """.*?(\d+\.\d+\.\d+)\/.*""".r
+      val found = (RegEXP findAllIn value).matchData.map(_ group 1).toList.sorted
       
       if (found.size > 0)
         val latestDottyVersion = found.last

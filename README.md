@@ -152,8 +152,8 @@ Copyright (c) 2021 J. v.Roos
 
 
 ##### Virusscan at Virustotal 
-[Virusscan at Virustotal, dottylatest.exe file, Check here](https://www.virustotal.com/gui/url/bb933786c2b6081ab4b95b2a2b44f36e6d4e7edd8dfab934ba8e0f043aa9bed8/detection/u-bb933786c2b6081ab4b95b2a2b44f36e6d4e7edd8dfab934ba8e0f043aa9bed8-1734615954
+[Virusscan at Virustotal, dottylatest.exe file, Check here](https://www.virustotal.com/gui/url/bb933786c2b6081ab4b95b2a2b44f36e6d4e7edd8dfab934ba8e0f043aa9bed8/detection/u-bb933786c2b6081ab4b95b2a2b44f36e6d4e7edd8dfab934ba8e0f043aa9bed8-1735392372
 )  
-[Virusscan at Virustotal, dottylatest.jar file, Check here](https://www.virustotal.com/gui/url/5595920b360671628290dadc663aa3aad104bbef9e79cdc09af799ed506ab352/detection/u-5595920b360671628290dadc663aa3aad104bbef9e79cdc09af799ed506ab352-1734615955
+[Virusscan at Virustotal, dottylatest.jar file, Check here](https://www.virustotal.com/gui/url/5595920b360671628290dadc663aa3aad104bbef9e79cdc09af799ed506ab352/detection/u-5595920b360671628290dadc663aa3aad104bbef9e79cdc09af799ed506ab352-1735392373
 )  
 Use [CTRL] + Click to open in a new window! 
