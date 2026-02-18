@@ -1,0 +1,7 @@
+dottylatest.jar
+dottylatest.exe
+loader.ini,yes
+MIT-License.txt
+scala-library-2.13.15.jar,no,,lib,https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.15/
+scala3-library_3-3.6.3.jar,no,,lib,https://repo1.maven.org/maven2/org/scala-lang/scala3-library_3/3.6.3/
+
