@@ -8,7 +8,7 @@ net session >nul 2>&1
 if NOT %ERRORLEVEL% == 0 goto noadmin
 
 rem use distinct libraries
-call scala -classpath dottylatest.jar;lib/scala3-library_3-3.8.1.jar de.jvr.dottylatest.Dottylatest
+call scala -classpath dottylatest.jar;lib/scala3-library_3-3.8.2.jar de.jvr.dottylatest.Dottylatest
 
 
 timeout /T 4
