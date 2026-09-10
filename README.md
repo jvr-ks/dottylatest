@@ -10,7 +10,7 @@ SBT if using Scala.
 Version (>=)| Change  
 ------------ | -------------  
 0.059 | -> 3.9.0 as default
-0.058 | -> 3.9.0 as default 
+0.058 | -> 3.8.4 as default 
 0.052 | Environment variables names changed to: **DOTTYLATEST** and **DOTTYLATESTRC**
 0.047 | Using the clipboard (loader changed) to catch app messages which is much faster
   
@@ -151,9 +151,3 @@ Copyright (c) 2021 J. v.Roos
 <a name="virusscan">
 
 
-##### Virusscan at Virustotal 
-[Virusscan at Virustotal, dottylatest.exe file, Check here](https://www.virustotal.com/gui/url/bb933786c2b6081ab4b95b2a2b44f36e6d4e7edd8dfab934ba8e0f043aa9bed8/detection/u-bb933786c2b6081ab4b95b2a2b44f36e6d4e7edd8dfab934ba8e0f043aa9bed8-1789038678
-)  
-[Virusscan at Virustotal, dottylatest.jar file, Check here](https://www.virustotal.com/gui/url/5595920b360671628290dadc663aa3aad104bbef9e79cdc09af799ed506ab352/detection/u-5595920b360671628290dadc663aa3aad104bbef9e79cdc09af799ed506ab352-1789038679
-)  
-Use [CTRL] + Click to open in a new window! 
