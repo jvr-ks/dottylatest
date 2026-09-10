@@ -9,7 +9,8 @@ SBT if using Scala.
   
 Version (>=)| Change  
 ------------ | -------------  
-0.058 | -> 3.8.4 as default 
+0.059 | -> 3.9.0 as default
+0.058 | -> 3.9.0 as default 
 0.052 | Environment variables names changed to: **DOTTYLATEST** and **DOTTYLATESTRC**
 0.047 | Using the clipboard (loader changed) to catch app messages which is much faster
   
@@ -24,13 +25,13 @@ and sets the environment-variable accordingly (changed from version 0.052):
 This environment-variable can be referenced in any "build.sbt"-file with:  
   
 ```
-ThisBuild / scalaVersion := sys.env.get("DOTTYLATEST").getOrElse("3.8.4"),  
+ThisBuild / scalaVersion := sys.env.get("DOTTYLATEST").getOrElse("3.9.0"),  
 ```
 or  
 ```
 inThisBuild(
 	List(
-		scalaVersion := sys.env.get("DOTTYLATEST").getOrElse("3.8.4")
+		scalaVersion := sys.env.get("DOTTYLATEST").getOrElse("3.9.0")
 	)
 )
 ```  
@@ -38,7 +39,7 @@ or use "DOTTYLATESTRC" to work with latest "RC" / "NIGHTLY" version:
 ```
 inThisBuild(
 	List(
-		scalaVersion := sys.env.get("DOTTYLATESTRC").getOrElse("3.8.4")
+		scalaVersion := sys.env.get("DOTTYLATESTRC").getOrElse("3.9.0")
 	)
 )
 ``` 
@@ -83,7 +84,7 @@ Linux/WSL: use "dottylatest_Java.sh" (chmod a+x ...)
   
 #### Required files in the "lib" directory  
 - [scala-library-2.13.15.jar](https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.15/scala-library-2.13.15.jar)  
-- [scala3-library_3-3.8.4.jar](https://repo1.maven.org/maven2/org/scala-lang/scala3-library_3/3.8.4/scala3-library_3-3.8.4.jar )  
+- [scala3-library_3-3.9.0.jar](https://repo1.maven.org/maven2/org/scala-lang/scala3-library_3/3.9.0/scala3-library_3-3.9.0.jar )  
   
 Use the [Download Updater 64 bit](https://github.com/jvr-ks/dottylatest/raw/main/updater.exe) to automatically download those files too.  
 (The preferred install / update procedure!)  

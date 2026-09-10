@@ -17,7 +17,7 @@ import java.net.URI;
 
 object Dottylatest:
 
-  val version = "0.058"
+  val version = "0.059"
   
   val osName = System.getProperty("os.name") match {
     case n if n.startsWith("Linux") => "linux"
